@@ -26,11 +26,6 @@ warnings.filterwarnings('ignore')
 from crewai import Agent, Task, Crew
 
 
-# **Note**: 
-# - The video uses `gpt-4-turbo`, but due to certain constraints, and in order to offer this course for free to everyone, the code you'll run here will use `gpt-3.5-turbo`.
-# - You can use `gpt-4-turbo` when you run the notebook _locally_ (using `gpt-4-turbo` will not work on the platform)
-# - Thank you for your understanding!
-
 # In[ ]:
 
 
@@ -291,8 +286,6 @@ job_application_inputs = {
 }
 
 
-# **Note**: LLMs can provide different outputs for they same input, so what you get might be different than what you see in the video.
-
 # In[ ]:
 
 
@@ -317,23 +310,6 @@ display(Markdown("./tailored_resume.md"))
 display(Markdown("./interview_materials.md"))
 
 
-# # CONGRATULATIONS!!!
-# 
-# ## Share your accomplishment!
-# - Once you finish watching all the videos, you will see the "In progress" image on the bottom left turn into "Accomplished".
-# - Click on "Accomplished" to view the course completion page with your name on it.
-# - Take a screenshot and share on LinkedIn, X (Twitter), or Facebook.  
-# - **Tag @Joāo (Joe) Moura, @crewAI, and @DeepLearning.AI, (and a few of your friends if you'd like them to try out the course)**
-# - **Joāo and DeepLearning.AI will "like"/reshare/comment on your post!**
-# 
-# ## Get a completion badge that you can add to your LinkedIn profile!
-# - Go to [learn.crewai.com](https://learn.crewai.com).
-# - Upload your screenshot of your course completion page.
-# - You'll get a badge from CrewAI that you can share!
-# 
-# (Joāo will also talk about this in the last video of the course.)
-
-# In[ ]:
 
 
 
